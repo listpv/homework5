@@ -32,7 +32,7 @@ public class Practice5
         System.out.println();
 //        С помощью цикла вывести информацию только о сотрудниках старше 40 лет;
         System.out.println("Список сотрудников старше " + "40");
-        for(int i = 0; i < 5; i++)                                 // 2-й способ. Обычный.
+        for(int i = 0; i < persArray.length; i++)                                 // 2-й способ. Обычный.
         {
             if(persArray[i].getAge() > 40)
             {
